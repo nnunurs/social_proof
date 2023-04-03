@@ -1,8 +1,17 @@
+body {
+  background-image: url(./img/bg-pattern-top-desktop.svg), url(./img/bg-pattern-bottom-desktop.svg);
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+
 @media (max-width: 1000px) {
   body {
     padding: 30px;
     padding-top: 100px;
     margin: 0;
-    /* width: 100; */
+
+    background-image: url(./img/bg-pattern-top-mobile.svg), url(./img/bg-pattern-bottom-mobile.svg);
   }
 }
