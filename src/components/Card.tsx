@@ -3,7 +3,7 @@ import "./Card.css"
 
 export default function Card(props: any) {
     return (
-        <div className="card" style={{ marginTop: props.m }}>
+        <div id={props.id} className="card">
             <div className="header">
                 <img className="avatar" src={props.image} alt="" />
                 <div className="card-title">

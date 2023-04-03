@@ -9,7 +9,7 @@ export default function Stars(props: any) {
     )
 
     return (
-        <div className='review-sum' style={{marginRight: props.m}}>
+        <div id={props.id} className='review-sum' style={{marginRight: props.m}}>
             <div className="stars-icons">{stars}</div>
             <span id="title">Rated 5 Start in {props.name}</span>
         </div>

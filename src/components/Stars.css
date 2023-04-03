@@ -25,3 +25,15 @@
     width: 70%;
     padding: 20px 30px;
 }
+
+
+@media (max-width: 1000px) {
+    .review-sum {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}

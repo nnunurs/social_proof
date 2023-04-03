@@ -45,3 +45,58 @@
   margin: 50px 0;
   gap: 30px;
 }
+
+@media (max-width: 1000px) {
+  .App {
+    padding: 0;
+    margin: 0;
+  }
+
+  #main {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  #body {
+    text-align: center;
+  }
+
+  .top-row {
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .stars {
+    width: 100%;
+    padding: 0;
+    margin: 40px 0 0 0;
+  }
+
+  .bottom-row {
+    flex-direction: column;
+    gap: 20px;
+    margin: 50px 0 0 0;
+  }
+}
+
+
+@media (min-width: 1000px) {
+  #first-star {
+    margin-right: 100px;
+  }
+
+  #second-star {
+    margin-right: 50px;
+  }
+
+  #second-card {
+    margin-top: 20px;
+  }
+
+  #third-card {
+    margin-top: 40px;
+  }
+}
