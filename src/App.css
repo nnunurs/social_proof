@@ -1,38 +1,47 @@
 .App {
-  text-align: center;
+  padding: 115px 165px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.top-row {
+  display: flex;
+  justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#main {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  color: hsl(300, 43%, 22%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#body {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: hsl(303, 10%, 53%);
+}
+
+.left {
+  width: 40%;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  text-align: start
+}
+
+.stars {
+  padding: 30px 0;
+  gap: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 50%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: end;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottom-row {
+  display: flex;
+  margin: 50px 0;
+  gap: 30px;
 }

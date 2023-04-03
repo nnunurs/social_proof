@@ -1,0 +1,27 @@
+#title {
+    color: hsl(300, 43%, 22%);
+    font-family: "League Spartan", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.stars-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.star {
+    width: 18px;
+    margin: 0 4px;
+}
+
+.review-sum {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    width: 70%;
+    padding: 20px 30px;
+}

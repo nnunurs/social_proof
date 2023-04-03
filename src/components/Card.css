@@ -1,0 +1,43 @@
+.avatar {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.card {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(300, 43%, 22%);
+    padding: 32px;
+    border-radius: 10px;
+    font-family: "League Spartan", sans-serif;
+    width: calc(100%/3);
+    height: 10%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.card-title {
+    font-size: 18px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.name-tag {
+    font-weight: 500;
+}
+
+.verified {
+    color: hsl(333, 80%, 67%)
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+}
